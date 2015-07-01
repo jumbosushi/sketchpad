@@ -1,0 +1,24 @@
+.white {
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid black; 
+    display: inline-block;
+    overflow: auto;
+}
+
+.filled {
+    float: left;
+    height: 30px;
+    width: 30px;
+    background-color: blue;
+    border: 1px solid black; 
+    display: inline-block;
+    overflow: auto;
+}
+
+.container {
+    height: 1600px;
+    width: 1600px;
+}
