@@ -2,19 +2,27 @@
 <html>
 
 <head>
-  <title>
-    Sketchpad by Atsushi Yamamoto
-  </title>
+    <title>
+        Sketchpad
+    </title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="/sketchpad.js">  </script>
-  <link rel="stylesheet" href="main.css">
-<head>
+    <script type="text/javascript" src="/sketchpad.js">
+    </script>
+    <link rel="stylesheet" href="main.css">
+</head>
 
 <body>
-    <div class="container">
+   <div id="title"><h1>Sketchopad by Atsushi Yamamoto</h1></div>
+    <div class="space"> </div>
+    <div class="wrapper">
+        <button onclick="reset()">Reset</button>
+        <button onclick="resize()">Change Size</button>
+    </div>
+    <div class="space"> </div>
+    <div id="container">
         <div class="white">
         </div>
-  </div>
+    </div>
 </body>
 
 </html>

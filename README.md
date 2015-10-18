@@ -1,2 +1,0 @@
-# sketchpad
-Online hover sketchpad 
